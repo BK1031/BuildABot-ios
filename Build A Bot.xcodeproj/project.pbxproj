@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0D56D2207FE9E4004CF431 /* FullAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D56D1207FE9E4004CF431 /* FullAnnouncementViewController.swift */; };
+		4F0D56D4208001CB004CF431 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D56D3208001CB004CF431 /* SessionsViewController.swift */; };
 		4F1D4BD7207181BC0085C3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D4BD6207181BC0085C3DD /* AppDelegate.swift */; };
 		4F1D4BD9207181BC0085C3DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D4BD8207181BC0085C3DD /* ViewController.swift */; };
 		4F1D4BDC207181BC0085C3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D4BDA207181BC0085C3DD /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		2B3B51512178BBACC2BAD327 /* Pods-Build A Bot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Build A Bot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Build A Bot/Pods-Build A Bot.release.xcconfig"; sourceTree = "<group>"; };
 		3EABC0C17F7D2B1A970146DD /* Pods_Build_A_Bot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Build_A_Bot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0D56D1207FE9E4004CF431 /* FullAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAnnouncementViewController.swift; sourceTree = "<group>"; };
+		4F0D56D3208001CB004CF431 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 		4F1D4BD3207181BC0085C3DD /* Build A Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build A Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1D4BD6207181BC0085C3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1D4BD8207181BC0085C3DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 			path = GameDay;
 			sourceTree = "<group>";
 		};
+		4F0D56D5208001D5004CF431 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D56D3208001CB004CF431 /* SessionsViewController.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
 		4F1D4BCA207181BB0085C3DD = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 				4FDB2A2D20719D1300AB7358 /* Initialization.swift */,
 				4F1D4BD6207181BC0085C3DD /* AppDelegate.swift */,
 				4FCB97FF207FCA5A0016E3D8 /* Home */,
+				4F0D56D5208001D5004CF431 /* Sessions */,
 				4F011B29207D550E005E5148 /* GameDay */,
 				4F1D4BDA207181BC0085C3DD /* Main.storyboard */,
 				4F1D4BDD207181BC0085C3DD /* Assets.xcassets */,
@@ -115,6 +128,7 @@
 				4F1D4BD8207181BC0085C3DD /* ViewController.swift */,
 				4FCB97FD207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift */,
 				4FCB9800207FCC760016E3D8 /* SessionFilterViewController.swift */,
+				4F0D56D1207FE9E4004CF431 /* FullAnnouncementViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -283,6 +297,7 @@
 				4FDB2A2C20718FC900AB7358 /* GameDayViewController.swift in Sources */,
 				4FCB97FE207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift in Sources */,
 				4F8809DB20730C350074FB5A /* BreakdownViewController.swift in Sources */,
+				4F0D56D2207FE9E4004CF431 /* FullAnnouncementViewController.swift in Sources */,
 				4F8809D72072E5CF0074FB5A /* PastMatchesTableViewCell.swift in Sources */,
 				4F1D4BD9207181BC0085C3DD /* ViewController.swift in Sources */,
 				4FCB9801207FCC760016E3D8 /* SessionFilterViewController.swift in Sources */,
@@ -290,6 +305,7 @@
 				4FDB2A3220719EC200AB7358 /* CurrentMatchViewController.swift in Sources */,
 				4F8809D9207301790074FB5A /* MatchBreakdownViewController.swift in Sources */,
 				4FDB2A2E20719D1300AB7358 /* Initialization.swift in Sources */,
+				4F0D56D4208001CB004CF431 /* SessionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

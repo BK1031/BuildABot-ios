@@ -8,7 +8,7 @@
 
 import Foundation
 
-var selectedSession = ""
+var selectedSession = "test"
 var selectedMatch = ""
 var selectedCurrent = false
 var selectedAnnouncement = ""

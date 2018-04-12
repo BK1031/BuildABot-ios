@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var titleList = [String]()
     var detailList = [String]()
+    var idList = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,11 +33,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if snapshot.childrenCount > 0 {
                 self.titleList.removeAll()
                 self.detailList.removeAll()
+                self.idList.removeAll()
                 
                 for announcement in snapshot.children.allObjects as! [DataSnapshot] {
                     if let announcementDetails = announcement.value as? [String: AnyObject] {
                         self.titleList.append(announcementDetails["title"] as! String)
-                        self.detailList.append(announcementDetails["detail"] as! String)
+                        self.detailList.append(announcementDetails["details"] as! String)
+                        self.idList.append(announcementDetails["id"] as! String)
+                        
+                        print(self.titleList)
                     }
                 }
                 
@@ -45,6 +50,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             else {
                 self.titleList.removeAll()
+                self.idList.removeAll()
                 self.detailList.removeAll()
                 self.tableView.reloadData()
             }
@@ -71,8 +77,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedAnnouncement = titleList[indexPath.row]
-        //TODO: Add segue to announcement view
+        selectedAnnouncement = idList[indexPath.row]
+        performSegue(withIdentifier: "toAnnouncement", sender: self)
     }
     
     @IBAction func filterButton(_ sender: UIBarButtonItem) {
