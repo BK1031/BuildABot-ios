@@ -16,6 +16,8 @@
 		4F8809D72072E5CF0074FB5A /* PastMatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8809D62072E5CF0074FB5A /* PastMatchesTableViewCell.swift */; };
 		4F8809D9207301790074FB5A /* MatchBreakdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8809D8207301790074FB5A /* MatchBreakdownViewController.swift */; };
 		4F8809DB20730C350074FB5A /* BreakdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8809DA20730C350074FB5A /* BreakdownViewController.swift */; };
+		4FCB97FE207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB97FD207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift */; };
+		4FCB9801207FCC760016E3D8 /* SessionFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB9800207FCC760016E3D8 /* SessionFilterViewController.swift */; };
 		4FDB2A2C20718FC900AB7358 /* GameDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB2A2B20718FC900AB7358 /* GameDayViewController.swift */; };
 		4FDB2A2E20719D1300AB7358 /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB2A2D20719D1300AB7358 /* Initialization.swift */; };
 		4FDB2A3020719EB700AB7358 /* SessionMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB2A2F20719EB700AB7358 /* SessionMatchesViewController.swift */; };
@@ -38,6 +40,8 @@
 		4F8809D8207301790074FB5A /* MatchBreakdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchBreakdownViewController.swift; sourceTree = "<group>"; };
 		4F8809DA20730C350074FB5A /* BreakdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownViewController.swift; sourceTree = "<group>"; };
 		4F8809DC20733E020074FB5A /* Build A Bot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Build A Bot.entitlements"; sourceTree = "<group>"; };
+		4FCB97FD207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewCell.swift; sourceTree = "<group>"; };
+		4FCB9800207FCC760016E3D8 /* SessionFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFilterViewController.swift; sourceTree = "<group>"; };
 		4FDB2A2B20718FC900AB7358 /* GameDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDayViewController.swift; sourceTree = "<group>"; };
 		4FDB2A2D20719D1300AB7358 /* Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialization.swift; sourceTree = "<group>"; };
 		4FDB2A2F20719EB700AB7358 /* SessionMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMatchesViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +98,7 @@
 				4F8809DC20733E020074FB5A /* Build A Bot.entitlements */,
 				4FDB2A2D20719D1300AB7358 /* Initialization.swift */,
 				4F1D4BD6207181BC0085C3DD /* AppDelegate.swift */,
-				4F1D4BD8207181BC0085C3DD /* ViewController.swift */,
+				4FCB97FF207FCA5A0016E3D8 /* Home */,
 				4F011B29207D550E005E5148 /* GameDay */,
 				4F1D4BDA207181BC0085C3DD /* Main.storyboard */,
 				4F1D4BDD207181BC0085C3DD /* Assets.xcassets */,
@@ -103,6 +107,16 @@
 				4F1D4BE8207182A40085C3DD /* GoogleService-Info.plist */,
 			);
 			path = "Build A Bot";
+			sourceTree = "<group>";
+		};
+		4FCB97FF207FCA5A0016E3D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D4BD8207181BC0085C3DD /* ViewController.swift */,
+				4FCB97FD207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift */,
+				4FCB9800207FCC760016E3D8 /* SessionFilterViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		A0F71F450375B3A2CB17BE07 /* Pods */ = {
@@ -152,7 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Bharat Kathi";
 				TargetAttributes = {
 					4F1D4BD2207181BC0085C3DD = {
@@ -267,9 +281,11 @@
 			files = (
 				4FDB2A3020719EB700AB7358 /* SessionMatchesViewController.swift in Sources */,
 				4FDB2A2C20718FC900AB7358 /* GameDayViewController.swift in Sources */,
+				4FCB97FE207FCA4A0016E3D8 /* AnnouncementsTableViewCell.swift in Sources */,
 				4F8809DB20730C350074FB5A /* BreakdownViewController.swift in Sources */,
 				4F8809D72072E5CF0074FB5A /* PastMatchesTableViewCell.swift in Sources */,
 				4F1D4BD9207181BC0085C3DD /* ViewController.swift in Sources */,
+				4FCB9801207FCC760016E3D8 /* SessionFilterViewController.swift in Sources */,
 				4F1D4BD7207181BC0085C3DD /* AppDelegate.swift in Sources */,
 				4FDB2A3220719EC200AB7358 /* CurrentMatchViewController.swift in Sources */,
 				4F8809D9207301790074FB5A /* MatchBreakdownViewController.swift in Sources */,
@@ -313,6 +329,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +337,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -347,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -370,6 +388,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -377,6 +396,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -398,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

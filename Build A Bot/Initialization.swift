@@ -11,3 +11,4 @@ import Foundation
 var selectedSession = ""
 var selectedMatch = ""
 var selectedCurrent = false
+var selectedAnnouncement = ""
