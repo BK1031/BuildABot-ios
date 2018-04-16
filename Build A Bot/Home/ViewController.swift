@@ -26,7 +26,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.delegate = self
         tableView.dataSource = self
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         ref = Database.database().reference()
         
         databaseHandle = ref?.child("announcements").child(selectedSession).observe(.value, with: { (snapshot) in
@@ -47,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 
                 self.tableView.reloadData()
             }
-            
+                
             else {
                 self.titleList.removeAll()
                 self.idList.removeAll()

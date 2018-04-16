@@ -58,8 +58,7 @@ class SessionFilterViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedSession = sessionList[indexPath.row]
-//        dismiss(animated: true, completion: nil)
-        performSegue(withIdentifier: "sessionUpdated", sender: self)
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cancelButton(_ sender: UIBarButtonItem) {

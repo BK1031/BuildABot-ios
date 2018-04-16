@@ -214,7 +214,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="l8X-bL-rFe" id="wol-49-DrE"/>
-                        <segue destination="OTi-FC-Qrl" kind="modal" identifier="sessionUpdated" modalTransitionStyle="crossDissolve" id="aOA-J3-eYH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I8O-zf-GZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1102,10 +1101,10 @@
             </objects>
             <point key="canvasLocation" x="1269.5999999999999" y="1567.4662668665669"/>
         </scene>
-        <!--View Controller-->
+        <!--Selected Session View Controller-->
         <scene sceneID="WvH-y6-Bze">
             <objects>
-                <viewController id="Vx8-fq-eNZ" sceneMemberID="viewController">
+                <viewController id="Vx8-fq-eNZ" customClass="SelectedSessionViewController" customModule="Build_A_Bot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zn1-p6-Twk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0B6154208069D40042A6FE /* SelectedSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B6153208069D40042A6FE /* SelectedSessionViewController.swift */; };
 		4F0D56D2207FE9E4004CF431 /* FullAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D56D1207FE9E4004CF431 /* FullAnnouncementViewController.swift */; };
 		4F0D56D4208001CB004CF431 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D56D3208001CB004CF431 /* SessionsViewController.swift */; };
 		4F1D4BD7207181BC0085C3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D4BD6207181BC0085C3DD /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		2B3B51512178BBACC2BAD327 /* Pods-Build A Bot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Build A Bot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Build A Bot/Pods-Build A Bot.release.xcconfig"; sourceTree = "<group>"; };
 		3EABC0C17F7D2B1A970146DD /* Pods_Build_A_Bot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Build_A_Bot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0B6153208069D40042A6FE /* SelectedSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSessionViewController.swift; sourceTree = "<group>"; };
 		4F0D56D1207FE9E4004CF431 /* FullAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAnnouncementViewController.swift; sourceTree = "<group>"; };
 		4F0D56D3208001CB004CF431 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 		4F1D4BD3207181BC0085C3DD /* Build A Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build A Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0D56D3208001CB004CF431 /* SessionsViewController.swift */,
+				4F0B6153208069D40042A6FE /* SelectedSessionViewController.swift */,
 			);
 			path = Sessions;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				4FCB9801207FCC760016E3D8 /* SessionFilterViewController.swift in Sources */,
 				4F1D4BD7207181BC0085C3DD /* AppDelegate.swift in Sources */,
 				4FDB2A3220719EC200AB7358 /* CurrentMatchViewController.swift in Sources */,
+				4F0B6154208069D40042A6FE /* SelectedSessionViewController.swift in Sources */,
 				4F8809D9207301790074FB5A /* MatchBreakdownViewController.swift in Sources */,
 				4FDB2A2E20719D1300AB7358 /* Initialization.swift in Sources */,
 				4F0D56D4208001CB004CF431 /* SessionsViewController.swift in Sources */,
