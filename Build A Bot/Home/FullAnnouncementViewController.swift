@@ -31,7 +31,7 @@ class FullAnnouncementViewController: UIViewController {
         
         ref = Database.database().reference()
         
-        databaseHandle = ref?.child("announcements").child(selectedSession).child(selectedAnnouncement).observe(.value, with: { (snapshot) in
+        databaseHandle = ref?.child("sessions").child(selectedSession).child("announcements").child(selectedAnnouncement).observe(.value, with: { (snapshot) in
             if let announcementDetails = snapshot.value as? [String: AnyObject] {
                 self.titleLabel.text = announcementDetails["title"] as? String
                 self.sessionLabel.text = selectedSession

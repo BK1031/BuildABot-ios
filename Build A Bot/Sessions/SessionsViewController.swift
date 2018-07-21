@@ -26,7 +26,7 @@ class SessionsViewController: UIViewController, UITableViewDelegate, UITableView
         
         ref = Database.database().reference()
         
-        databaseHandle = ref?.child("gameDay").observe(.value, with: { (snapshot) in
+        databaseHandle = ref?.child("sessions").observe(.value, with: { (snapshot) in
             if snapshot.childrenCount > 0 {
                 self.sessionList.removeAll()
                 
